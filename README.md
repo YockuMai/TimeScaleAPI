@@ -19,7 +19,6 @@ TestTaskCS/
 │   │   └── Entities/                   # Сущности БД
 │   ├── Migrations/                     # Миграции EF Core
 │   ├── WebApi/                         # Контроллеры
-│   └── Tests/files/                    # Примеры CSV-файлов
 └── WebApplication.Tests/               # Юнит-тесты (xUnit)
 ```
 
@@ -38,7 +37,7 @@ TestTaskCS/
 ### 1. Загрузка CSV-файла
 
 ```
-POST /api/file/upload
+POST /api/File/upload
 Content-Type: multipart/form-data
 ```
 
@@ -70,7 +69,7 @@ Date;ExecutionTime;Value
 ### 2. Получение последних 10 значений по имени файла
 
 ```
-GET /api/value/values?FileName=файл.csv
+GET /api/Value/values?FileName=файл.csv
 ```
 
 | Параметр    | Тип      | Описание               |
@@ -83,7 +82,7 @@ GET /api/value/values?FileName=файл.csv
 ### 3. Получение результатов агрегации с фильтрацией
 
 ```
-GET /api/result/result?FileName=файл.csv&MeanValueFrom=100&MeanValueTo=500
+GET /api/Result/result?FileName=файл.csv&MeanValueFrom=100&MeanValueTo=500
 ```
 
 Параметры фильтра (все опциональны):
