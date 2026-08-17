@@ -1,0 +1,40 @@
+# .NET
+*.csproj.user
+*.sln.docstates
+*.tmp
+*.user
+*~
+bin/
+obj/
+
+# Visual Studio
+*.Vs/
+*.Vs/*
+*.vs/
+*.vs/*
+!.vs/
+.vs/
+*.VC.db
+*.VC.VC.opendb
+*.VC.VC.opendb.*
+.vscode/
+
+# NuGet
+*.nuget/
+*.nuget/packages/
+packages/
+NuGetPackageCache/
+
+# Microsoft Office
+*.doc
+*.docx
+*.docx_
+*.xls
+*.xlsb
+*.xlsx
+*.xlt
+*.xltx
+*.md
+*.tmp
+*.csv
+*.pdf
