@@ -34,7 +34,6 @@ NuGetPackageCache/
 *.xlsx
 *.xlt
 *.xltx
-*.md
 *.tmp
 *.csv
 *.pdf
